@@ -14,13 +14,13 @@ const Home = () => {
     return (
         <>
             <Banner/>
-            <Partner/> 
+            {/* <Partner/>  */}
             <OurServices/>
             <AboutOne/>
-            <AboutTwo className="bg-color" />
-            <WorkingProcess/>
+            {/* <AboutTwo className="bg-color" /> */}
+            {/* <WorkingProcess/>
             <Project/>
-            <Pricing/>
+            <Pricing/> */}
             <Testimonials className="bg-color" />
             <Blog/>
         </>

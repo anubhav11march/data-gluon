@@ -25,7 +25,7 @@ const Banner = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="home-one-banner-content">
                                 <h1>Big Data & Analytics</h1>
-                                <h2>Innovative Solutions</h2>
+                                <h2>Empowering Data Excellence</h2>
                                 <p>
                                     Real-time data management technologies, global data market places, and award-winning
                                     service
