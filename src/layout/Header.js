@@ -5,6 +5,7 @@ import {HiMenuAlt3} from "react-icons/hi";
 import {AiOutlineClose} from "react-icons/ai";
 import {MenuData} from './MenuData'
 import NavItem from './NavItems'
+import './layout.css'
 
 
 const Header = () => {
@@ -39,8 +40,8 @@ const Header = () => {
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand" to="/">
-                                <img src={logos} className="white-logo" alt="logo"/>
-                                <img src={logos} className="black-logo" alt="logo"/>
+                                <img src={logos} className="nav-img" alt="logo"/>
+                                {/* <img src={logos} className="black-logo" alt="logo"/> */}
                             </Link>
                             <div className="mean-menu" id="navbarSupportedContent">
                                 <ul className="navbar-nav">

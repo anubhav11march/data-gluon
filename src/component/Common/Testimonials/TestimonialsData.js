@@ -4,7 +4,7 @@ import img2 from '../../../assets/img/testimonial/2.png'
 export const TestData = [
     {
         para: "Naman is a data pro! He has intricate knowledge of big data systems, specifically Spark technologies, along with Scala, Databricks & AWS.He was challenged to take on the re-engineering of our primary legacy pipeline for Veraset and excelled at developing a performant system with complex data and changing requirements.",
-        img: img1,
+        img: img2,
         name: "Geoffrey Prince",
         des: "CEO @ Veraset (April, 2023)"
     },

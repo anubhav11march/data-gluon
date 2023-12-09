@@ -22,7 +22,7 @@ const Home = () => {
             <Project/>
             <Pricing/> */}
             <Testimonials className="bg-color" />
-            <Blog/>
+            {/* <Blog/> */}
         </>
     )
 }

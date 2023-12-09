@@ -1,0 +1,10 @@
+.nav-img{
+    height:50px;
+    width:50px;
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+.footer{
+    height:50px;
+    width:100px;
+}

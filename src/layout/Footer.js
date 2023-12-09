@@ -5,6 +5,7 @@ import logo from "../assets/img/logo.png";
 import { ImLocation } from "react-icons/im";
 import { FiPhoneOutgoing } from "react-icons/fi";
 import { SiMinutemailer } from "react-icons/si";
+import "./layout.css";
 
 const FooterItems = [
   {
@@ -36,7 +37,7 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="footer-about-area">
                 <Link to="/">
-                  <img alt="" src={logo} />
+                  <img className="footer" alt="" src={logo} />
                 </Link>
                 <p className="pt30">
                   At DataGluon Solutions, we recognize that data is the

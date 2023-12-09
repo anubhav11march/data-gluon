@@ -26,17 +26,17 @@ const Banner = () => {
                             <div className="home-one-banner-content">
                                 <h1>Big Data & Analytics</h1>
                                 <h2>Empowering Data Excellence</h2>
-                                <p>
+                                {/* <p>
                                     Real-time data management technologies, global data market places, and award-winning
                                     service
                                     make our solutions.
-                                </p>
+                                </p> */}
                                 <ModalVideo channel='youtube' api={false} autoplay isOpen={isOpen} videoId="L61p2uyiMSo"
                                             onClose={() => setOpen(false)}/>
                                 <div className="banner-one-btn pt30">
                                     <Link to="/#" className="btn btn-theme">Get Started</Link>
-                                    <a href="#!" className="banner-video video-link"
-                                       onClick={() => setOpen(true)}><AiOutlinePlayCircle/> Watch Video</a>
+                                    {/* <a href="#!" className="banner-video video-link"
+                                       onClick={() => setOpen(true)}><AiOutlinePlayCircle/> Watch Video</a> */}
                                 </div>
                             </div>
                         </div>

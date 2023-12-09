@@ -33,7 +33,7 @@ export const OurServiceData = [
 {
  img:Icon5,
  heading:"Cloud Data Solutions:",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ paragraph:"Optimized Infrastructure: Migrate and optimize your data infrastructure on leading cloud platforms for enhanced performance and scalability.",
  button:"Read More ..."
 },
 {
