@@ -23,9 +23,9 @@ const Cta = () => {
                             <div className="news-letter-text pl40 pr80 responsive-mt-30">
                                 <h3 className="white-color">Newsletter</h3>
                                 <h2 className="white-color">Subscribe Our Newletter</h2>
-                                <p className="white-color">
+                                {/* <p className="white-color">
                                     lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

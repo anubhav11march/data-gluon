@@ -5,7 +5,8 @@ import ModalVideo from 'react-modal-video'
 import '../../../../node_modules/react-modal-video/css/modal-video.min.css'
 
 // Import Banner Img
-import img_banner from '../../../assets/img/about/1.png'
+// import img_banner from '../../../assets/img/about/1.jpg'
+import img_banner from '../../../assets/img/about/5.jpg'
 
 // Icon
 import {AiOutlinePlayCircle} from 'react-icons/ai';

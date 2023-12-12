@@ -2,7 +2,7 @@ import React from "react";
 
 //  Import Img
 import check from "../../../assets/img/about/tick.png";
-import AboutImg from "../../../assets/img/about/1.png";
+import AboutImg from "../../../assets/img/about/6.jpg";
 
 import { Link } from "react-router-dom";
 
