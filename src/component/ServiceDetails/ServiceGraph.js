@@ -10,7 +10,7 @@ function ServiceGraph() {
                     <div className="row">
                         <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                             <div className="service-img-details">
-                                <img alt="" src={img1} width="500px"/>
+                                <img alt="" src={img1} width="400px" height="770px"/>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
