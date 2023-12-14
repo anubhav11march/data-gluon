@@ -9,9 +9,10 @@ function OurServiceCard(props) {
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
         <img alt="" src={props.data.img}  />
-        <h3><Link to="/service_details">{props.data.heading}</Link></h3>
+       <h3> <Link to={{ pathname: '/service_details', state: props.data.id }}>{props.data.heading}</Link></h3>
+        {/* <h3><Link to="/service_details"  state={{ from: "occupation" }}>{props.data.heading}</Link></h3> */}
         <p>{props.data.paragraph}</p>
-        <Link to="/service_details">{props.data.button}</Link>
+        <Link to={{ pathname: '/service_details', state: props.data.id}}>{props.data.button}</Link>
         </div>
         </div>
         </div>

@@ -12,7 +12,7 @@ const Services = () => {
             <OurServices/>
             <GetStarted/>
             <Counter/>
-            <Blog/>
+            {/* <Blog/> */}
         </>
     )
 }

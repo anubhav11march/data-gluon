@@ -56,7 +56,7 @@ const AboutOne = () => {
                     24/7 Support Centers
                   </li>
                 </ul> */}
-                <Link to="/#" className="btn btn-theme mt30">
+                <Link to="/services" className="btn btn-theme mt30">
                   How It Work
                 </Link>
               </div>

@@ -7,7 +7,7 @@ const ContactDetails = () => {
     return (
         <>
             <section id="contact">
-                <ContactMap/>
+                {/* <ContactMap/> */}
                 <div className="container">
                     <div className="padding-areas">
                         <div className="row">

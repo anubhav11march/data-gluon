@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         name: "Home",
-        href: "#!",
+        href: "/",
         has_children: false, 
         children: [
             {
@@ -33,19 +33,19 @@ export const MenuData = [
     },
     {
         name: "Services",
-        href: "#!",
-        has_children: true,
+        href: "/services",
+        has_children: false,
         children: [
-            {
-                name: "Services",
-                href: "/services",
-                has_children: false,
-            },
-            {
-                name: "Service Details",
-                href: "/service_details",
-                has_children: false,
-            }
+            // {
+            //     name: "Services",
+            //     href: "/services",
+            //     has_children: false,
+            // },
+            // {
+            //     name: "Service Details",
+            //     href: "/service_details",
+            //     has_children: false,
+            // }
         ]
     },
     {

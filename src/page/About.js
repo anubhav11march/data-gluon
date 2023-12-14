@@ -9,11 +9,11 @@ import TeamMembers from '../component/About/Team'
 const About = () => {
     return (
         <>
-            <CommonBanner heading="About" menu1="Home" menu2="About"/>
+            <CommonBanner heading="About Us" menu1="Home" menu2="About"/>
             <History/>
             <GetStarted/>
             <Counter/>
-            <TeamMembers/>
+            {/* <TeamMembers/> */}
             <Testimonials/>
         </>
     )

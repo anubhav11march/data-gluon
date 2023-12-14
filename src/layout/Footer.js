@@ -13,8 +13,8 @@ const FooterItems = [
     links: [
       { linkTitle: "Home", link: "/" },
       { linkTitle: "Faqs", link: "/faqs" },
-      { linkTitle: "Shop", link: "/shop" },
-      { linkTitle: "News", link: "/blog" },
+      // { linkTitle: "Shop", link: "/shop" },
+      // { linkTitle: "News", link: "/blog" },
     ],
   },
   {
@@ -23,7 +23,7 @@ const FooterItems = [
       { linkTitle: "About", link: "/about" },
       { linkTitle: "Service", link: "/services" },
       { linkTitle: "Contact Us", link: "/contact" },
-      { linkTitle: "Projects", link: "/projects" },
+      // { linkTitle: "Projects", link: "/projects" },
     ],
   },
 ];

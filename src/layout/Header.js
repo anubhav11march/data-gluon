@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom';
-import logos from '../assets/img/logo.png'
+import logos from '../assets/img/logoo/logo.png';
 import {HiMenuAlt3} from "react-icons/hi";
 import {AiOutlineClose} from "react-icons/ai";
 import {MenuData} from './MenuData'
