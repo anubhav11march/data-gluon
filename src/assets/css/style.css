@@ -2368,7 +2368,12 @@ button:focus {
     padding: 0;
 }
 
-
+.nav-img {
+    height: 80px;
+    width: 130px;
+    display: inline-block;
+    overflow: hidden;
+}
 /* feature Area css end */
 
 
