@@ -610,14 +610,14 @@ select:focus {
 /* --Button Area Start-- */
 
 .btn-theme {
-    background: var(--main-theme-color);
+    background: var(--heading-color);
     -webkit-transition: all 0.3s ease-in-out 0.1s;
     -o-transition: all 0.3s ease-in-out 0.1s;
     transition: all 0.3s ease-in-out 0.1s;
 }
 
 .btn-theme:hover {
-    background: var(--heading-color);
+    background: var(--main-theme-color);
     -webkit-transition: all 0.3s ease-in-out 0.1s;
     -o-transition: all 0.3s ease-in-out 0.1s;
     transition: all 0.3s ease-in-out 0.1s;
@@ -841,7 +841,7 @@ section {
 .plamb-nav .navbar .navbar-nav .nav-item a:hover,
 .plamb-nav .navbar .navbar-nav .nav-item a:focus,
 .plamb-nav .navbar .navbar-nav .nav-item a.active {
-    color: var(--main-theme-color);
+    color: white;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item a i {
@@ -858,7 +858,7 @@ section {
 .plamb-nav .navbar .navbar-nav .nav-item:hover a,
 .plamb-nav .navbar .navbar-nav .nav-item:focus a,
 .plamb-nav .navbar .navbar-nav .nav-item.active a {
-    color: var(--main-theme-color);
+    color: white;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -1145,7 +1145,7 @@ section {
 }
 
 .navbar-area {
-    background-color: transparent;
+    background-color: #19212C;
     transition: 0.6s;
     position: relative;
     z-index: 999;
@@ -1177,13 +1177,13 @@ section {
 }
 
 .navbar-area.is-sticky .navbar-nav .nav-item a {
-    color: #5b5b98;
+    color:var(--heading-color);
 }
 
 .navbar-area.is-sticky .navbar-nav .nav-item a:hover,
 .navbar-area.is-sticky .navbar-nav .nav-item a:focus,
 .navbar-area.is-sticky .navbar-nav .nav-item a.active {
-    color: #00b0ee;
+    color: white;
 }
 
 .navbar-area.is-sticky .plamb-nav .navbar-brand .white-logo {
@@ -2373,6 +2373,7 @@ button:focus {
     width: 130px;
     display: inline-block;
     overflow: hidden;
+    background-color: white;
 }
 /* feature Area css end */
 
@@ -3894,7 +3895,7 @@ color: #fff
     z-index: 99999999;
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-    background-color: #ffffff !important;
+    background-color: #19212C !important;
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding-top: 5px;
